@@ -1,7 +1,7 @@
-<img style="width: 100px;" src="https://user-images.githubusercontent.com/93930380/177550298-9d15c601-3087-49ab-9f8f-3d5ebae0288e.png">
+<div style="width: 100px; height: 100px; background-color: #69A8E7;">
+  <img style="width: 100px;" src="https://user-images.githubusercontent.com/93930380/177550298-9d15c601-3087-49ab-9f8f-3d5ebae0288e.png">
+</div>
 
-
-# projet_stage
 
 ## Contexte du projet
 La société SEFACO nous a demander de réaliser un site web qui consiste à organiser les opérations des échanges de devise pour chaque client ou ils peuvent consulter l’état de leur compte et imprimer des factures de format PDF qui contient les détails de chaque opération réalisée, ce site web va permet aussi aux administrateurs de gérer les comptes et de les valider toute en donnant l’accès aux employés de la société d’actualiser l’état des bilans de chaque client. Pour construire ce site web il faut utiliser certaines fonctionnalités tels que :
