@@ -3,11 +3,12 @@
 
 # Contexte du projet
 La société SEFACO nous a demander de réaliser un site web qui consiste à organiser les opérations des échanges de devise pour chaque client ou ils peuvent consulter l’état de leur compte et imprimer des factures de format PDF qui contient les détails de chaque opération réalisée, ce site web va permet aussi aux administrateurs de gérer les comptes et de les valider toute en donnant l’accès aux employés de la société d’actualiser l’état des bilans de chaque client. Pour construire ce site web il faut utiliser certaines fonctionnalités tels que :
-  1.	Les conditionnels.
-  2.	Les fonctions.
-  3.	Les Framework. 
-  4.	La validation de formulaire.
-  5.	Construction d’une base de données.
+
+    1.Les conditionnels.
+    2.Les fonctions.
+    3.Les Framework. 
+    4.La validation de formulaire.
+    5.Construction d’une base de données.
   
   
 # Les pages requises sont les suivantes :
