@@ -1,11 +1,11 @@
 :root {
     /* Colors */
-    --base-color: #3498DB;
-    --second-color: #69A8E7;
-    --black-color: #000000;
-    --grey-color: #6F6F6F;
-    --white-color: #FFFFFF;
-    --cyan-Blue-color: #F6F9FC;
+    --base-color      : #3498DB;
+    --second-color    : #69A8E7;
+    --black-color     : #000000;
+    --grey-color      : #6F6F6F;
+    --white-color     : #FFFFFF;
+    --cyan-Blue-color : #F6F9FC;
 }
 /* style of input type:radio */
 input[type="radio"]{
@@ -20,7 +20,7 @@ input[type="radio"]{
     background         : var(--white-color) no-repeat center center;
 }
 input[type="radio"]{
-    border-radius : 50%;
+    border-radius      : 50%;
 }
 input[type="radio"]:where(:active:not(:disabled), :focus){
     border-color      : var(--base-color);
@@ -29,21 +29,21 @@ input[type="radio"]:where(:active:not(:disabled), :focus){
 }
 
 input[type="text"],[type="password"]{
-    width: 100%;
-    height: 50px;
-    text-align:right;
-    padding-right: 15px;
-    border-radius: 16px;
+    width             : 100%;
+    height            : 50px;
+    text-align        : right;
+    padding-right     : 15px;
+    border-radius     : 16px;
 }
 
 input[type="submit"]{
-    width: 50%;
-    height: 50px;
-    margin-left: 25%;
-    border-radius: 16px;
-    background-color: var(--base-color);
-    border: 0px;
-    font-weight: bold;
+    width             : 50%;
+    height            : 50px;
+    margin-left       : 25%;
+    border-radius     : 16px;
+    background-color  : var(--base-color);
+    border            : 0px;
+    font-weight       : bold;
 }
 
 body {
@@ -97,11 +97,11 @@ body #sign #sign-form #menu-sign .active{
     background-color: var(--base-color);
 }
 
-body #sign #signin{
+body #sign #signin,#signup{
     width: 80%;
     height: 85vh;
     margin-left: 10%;
 }
-body #sign #signin p{
+body #sign p{
     color: var(--grey-color);
 }
