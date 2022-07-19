@@ -1,23 +1,25 @@
 // Sign in && Sign up
-const btn_sign_in = document.getElementById('btn_sign_up');
-const btn_sign_up = document.getElementById('btn_sign_in');
+const btn_signin = document.getElementById('btn_signin');
+const btn_signup = document.getElementById('btn_signup');
 const signin = document.getElementById('signin');
 const signup = document.getElementById('signup');
 // Loading Page Defoalt
 signin.style.display = "block";
 signup.style.display = "none";
-btn_sign_in.classList.remove('active');
-btn_sign_up.classList.add('active');
+btn_signup.classList.remove('active');
+btn_signin.classList.add('active');
 
-btn_sign_in.addEventListener('click', () => {
-    signup.style.display = "block";
-    signin.style.display = "none";
-    btn_sign_up.classList.remove('active');
-    btn_sign_in.classList.add('active');
-});
-btn_sign_up.addEventListener('click', () => {
-    signin.style.display = "block";
+btn_signin.addEventListener('click', () => {
+    console.log('btn_signin');
     signup.style.display = "none";
-    btn_sign_in.classList.remove('active');
-    btn_sign_up.classList.add('active');
+    signin.style.display = "block";
+    btn_signup.classList.remove('active');
+    btn_signin.classList.add('active');
+});
+btn_signup.addEventListener('click', () => {
+    console.log('btn_signup');
+    signin.style.display = "none";
+    signup.style.display = "block";
+    btn_signup.classList.add('active');
+    btn_signin.classList.remove('active');
 });
