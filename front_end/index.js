@@ -41,6 +41,7 @@ form_signin.addEventListener('submit', (e)=> {
         error_signin.innerHTML = "<p class='text-danger'>المرجوا ادخل بريدك الالكتروني و القن السري لتسجيل الدخول</p>";
     }
     else{
+        error_signin.innerText = "ادخل بريدك الالكتروني و القن السري لتسجيل الدخول";
         if(email_signin.value == ""){
             e.preventDefault();
             error_email.innerText = "املأ حقل البريد الإلكتروني";
@@ -96,6 +97,7 @@ form_signup.addEventListener('submit', (e)=> {
         error_signup.innerHTML = "<p class='text-danger'>المرجوا ملأ معلوماتك لانشاء حسابك</p>";
     }
     else{
+        error_signup.innerText = "املأ معلوماتك لانشاء حسابك";
         if((first_name.value == "") || (last_name.value == "")){
             e.preventDefault();
             error_name.innerText = "املأ حقل الاسم و النسب";
