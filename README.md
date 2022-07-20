@@ -1,4 +1,4 @@
-<img style="width: 100px;" src="https://user-images.githubusercontent.com/93930380/177550298-9d15c601-3087-49ab-9f8f-3d5ebae0288e.png">
+<img style="width: 100px;" src="https://user-images.githubusercontent.com/93930982/180025721-861328d6-7276-4edd-8562-2b7e97a7e25b.png">
 
 
 # Contexte du projet
