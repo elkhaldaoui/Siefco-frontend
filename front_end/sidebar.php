@@ -1,13 +1,10 @@
 
 
 <span class="m-5">
-<select class="form-select container " aria-label="Disabled select example" style="max-width: 100px; border:none; background-color: #69A8E7;" >
-
-  <option selected value="English">English</option>
-  <option value="Arabe">Arabe</option>
-  
-</select>
-
+  <select class="form-select container " aria-label="Disabled select example" style="max-width: 100px; border:none; background-color: #69A8E7;" >
+    <option selected value="English">English</option>
+    <option value="Arabe">Arabe</option>
+  </select>
 </span>
 <!-- Pour version mobile -->
 
