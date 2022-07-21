@@ -51,6 +51,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: var(--cyan-Blue-color);
 }
 
 
@@ -104,4 +105,18 @@ body #sign #signin,#signup{
 }
 body #sign p{
     color: var(--grey-color);
+}
+
+
+/* Assidbar */
+@media screen and (max-width: 1200px) {
+    body #assidBar{
+        width: 250px;
+        position: absolute !important;
+        z-index: 999;
+        display: none !important;
+    }
+    body #btn_assidBar{
+        display: block !important;
+    }
 }
