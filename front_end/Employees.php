@@ -15,21 +15,17 @@
             <div class="container-fluid py-4">
                 <div class="card border-0 shadow-sm overflow-auto" style="min-height: 200px; max-height: 560px; border-radius: 16px;">
                     <div class="d-flex flex-row-reverse justify-content-between align-items-center m-4">
-                        <h4>الزبناء</h4>
+                        <h4>المستخدمون</h4>
                         <i class="bi bi-plus-circle-fill h1"></i>
                     </div>
                     <table class="table mb-0 text-center">
                         <thead>
                             <tr>
                                 <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
-                                <th class="col-2 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">البيان</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">العملة</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">دائن</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">مدين</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">الرصيد</th>
-                                <th class="col-2 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">البريد الالكتروني</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">النسب</th>
-                                <th class="col-1 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">الاسم</th>
+                                <th class="col-3 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">رقم الهاتف</th>
+                                <th class="col-4 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">البريد الالكتروني</th>
+                                <th class="col-2 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">النسب</th>
+                                <th class="col-2 text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">الاسم</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -39,14 +35,10 @@
                                     <a class="text-dark me-1" href=""><i class="bi bi-pen-fill"></i></a>
                                     <a class="text-dark ms-1" href=""><i class="bi bi-trash3-fill"></i></a>
                                 </td>
+                                <td class="col-3"><?php echo "ابت" ;?></td>
+                                <td class="col-4"><?php echo "ابت" ;?></td>
                                 <td class="col-2"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
                                 <td class="col-2"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
-                                <td class="col-1"><?php echo "ابت" ;?></td>
                             </tr>
                             <?php endfor ;?>
                         </tbody>
