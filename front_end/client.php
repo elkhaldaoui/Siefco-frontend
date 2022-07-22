@@ -16,6 +16,10 @@
                 <div class="card border-0 shadow-sm overflow-auto" style="min-height: 200px; max-height: 560px; border-radius: 16px;">
                     <div class="d-flex flex-row-reverse justify-content-between align-items-center m-4">
                         <h4>الزبناء</h4>
+                        <div class="input-group me-3" style="width: 25%;">
+                            <input type="text" class="form-control" placeholder="الاسم" style="height: 45px;">
+                            <span class="input-group-text" style="border-radius: 0px 16px 16px 0px;"><i class="bi bi-search"></i></span>
+                        </div>
                         <i class="bi bi-plus-circle-fill h1"></i>
                     </div>
                     <table class="table mb-0 text-center">
