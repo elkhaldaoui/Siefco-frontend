@@ -33,9 +33,9 @@
                         <p class="text-danger float-end me-4" id="error_email"></p>
                         <input type="password" name="password" id="password_signin" placeholder="القن السري" class="border-0 col-form-label">
                         <p class="text-danger float-end me-4" id="error_password"></p>
-                        <div>
-                            <label for="checked" class="h6">تذكرني</label>
-                            <input type="checkbox" class="mx-1" name="checked" id="checked">
+                        <div class="form-check form-switch d-flex justify-content-end">
+                            <label for="checked" class="form-check-label h6">تذكرني</label>
+                            <input type="checkbox" class="form-check-input mx-1" name="checked" id="checked">
                         </div>
                         <input type="submit" name="signin" value="تسجيل الدخول"></input>
                     </form>
