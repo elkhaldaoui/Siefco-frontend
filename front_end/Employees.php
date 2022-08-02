@@ -20,7 +20,9 @@
                             <input type="text" class="form-control" placeholder="الاسم" style="height: 45px;">
                             <span class="input-group-text" style="border-radius: 0px 16px 16px 0px;"><i class="bi bi-search"></i></span>
                         </div>
-                        <i class="bi bi-plus-circle-fill h1"></i>
+                        <!-- Button Add modal -->
+                        <i class="bi bi-plus-circle-fill h1" type="button" data-bs-toggle="modal" data-bs-target="#add"></i>
+                        <?php include "includes_modales/Modale_employees.php" ?>
                     </div>
                     <table class="table mb-0 text-center">
                         <thead>
